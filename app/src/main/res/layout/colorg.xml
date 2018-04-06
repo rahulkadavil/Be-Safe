@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    >
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="WHITE"
+        android:shadowColor="#5480ed"
+        android:elevation="12dp"
+        android:id="@+id/button2"
+        android:layout_above="@+id/button4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:shadowColor="#5480ed"
+        android:elevation="12dp"
+        android:text="RED"
+        android:id="@+id/button3"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:shadowColor="#5480ed"
+        android:elevation="12dp"
+        android:text="BLUE"
+       android:id="@+id/button4"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="GREEN"
+        android:id="@+id/button5"
+        android:shadowColor="#5480ed"
+        android:elevation="12dp"
+        android:layout_alignTop="@+id/button4"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose text in Green Color"
+        android:shadowColor="#5480ed"
+        android:elevation="12dp"
+        android:textSize="20dp"
+        android:id="@+id/textView7"
+        android:layout_alignParentTop="true"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:layout_width="100dp"
+        android:shadowColor="#5480ed"
+        android:elevation="12dp"
+        android:layout_height="100dp"
+        android:text="YELLOW"
+        android:id="@+id/button6"
+        android:layout_below="@+id/button4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="BLACK"
+        android:id="@+id/button7"
+        android:layout_alignTop="@+id/button6"
+        android:shadowColor="#5480ed"
+        android:elevation="12dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="RED"
+        android:shadowColor="#5480ed"
+        android:elevation="12dp"
+        android:id="@+id/button8"
+        android:layout_below="@+id/button10"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="ORANGE"
+        android:id="@+id/button9"
+        android:shadowColor="#5480ed"
+        android:elevation="12dp"
+        android:layout_below="@+id/button8"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:shadowColor="#5480ed"
+        android:elevation="12dp"
+        android:text="VIOLET"
+        android:id="@+id/button10"
+        android:layout_above="@+id/button4"
+        android:layout_alignLeft="@+id/button8"
+        android:layout_alignStart="@+id/button8" />
+</RelativeLayout>

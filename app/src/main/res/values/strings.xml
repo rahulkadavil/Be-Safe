@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Be-Safe</string>
+    <string name="toast_unable_to_connect">Unable to connect</string>
+    <string name="toast_connection_lost">Connection lost</string>
+    <string name="none_found">Not foound</string>
+    <string name="none_paired">Not paired</string>
+    <string name="scanning">Scanning</string>
+    <string name="title_new_devices">New devices</string>
+    <string name="device_name">Device</string>
+    <string name="paired_devices">Paired Devices</string>
+    <string name="select_device">Select device</string>
+</resources>

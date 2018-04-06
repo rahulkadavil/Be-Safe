@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/bg1"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number of drinks"
+        android:id="@+id/textView5"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="100dp" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/textView5"
+        android:layout_marginRight="20dp"
+        android:id="@+id/drinks"
+        android:shadowColor="#5480ed"
+        android:elevation="12dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time Taken to drink in Hours"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/drinks"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+         />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/textView6"
+        android:id="@+id/time"
+        android:shadowColor="#5480ed"
+        android:elevation="12dp"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:textColor="#ffffff"
+        android:id="@+id/bacbtn"
+        android:background="#02a8f4"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:shadowColor="#5480ed"
+        android:elevation="12dp"
+        />
+    
+</RelativeLayout>
